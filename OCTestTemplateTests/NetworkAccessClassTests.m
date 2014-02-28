@@ -7,9 +7,10 @@
 //
 
 #import <XCTest/XCTest.h>
+#import <XCTAsyncTestCase/XCTAsyncTestCase.h>
 #import "NetworkAccessClass.h"
 
-@interface NetworkAccessClassTests : XCTestCase
+@interface NetworkAccessClassTests : XCTAsyncTestCase
 
 @end
 
@@ -45,8 +46,14 @@
 {
     NetworkAccessClass *networkAccess = [self defaultNetworkAccess];
 
-    [networkAccess requestLiveStatusWithCompletion:nil];
-    // [networkAccess requs]
+    [self prepare];
+
+    [networkAccess requestLiveStatusWithCompletion:^(BOOL isLive, NSError *error) {
+         NSLog(@"received callback.");
+         [self notify:kXCTUnitWaitStatusSuccess];
+     }];
+
+    [self waitForStatus:kXCTUnitWaitStatusSuccess timeout:2.0f];
 }
 
 @end

@@ -1,10 +1,13 @@
 PODS:
+  - OCMock (2.2.3)
   - XCTAsyncTestCase (0.1.0)
 
 DEPENDENCIES:
+  - OCMock (~> 2.2)
   - XCTAsyncTestCase (~> 0.1)
 
 SPEC CHECKSUMS:
+  OCMock: 74e4ddbcef134170dcc844f91c691f13868075d7
   XCTAsyncTestCase: 712a789c91b966bcce433fced0b930ffc8b5b10a
 
 COCOAPODS: 0.29.0

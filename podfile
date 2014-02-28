@@ -1,4 +1,5 @@
 # target :test, :exclusive => true do
 target :OCTestTemplateTests, :exclusive => true do
     pod 'XCTAsyncTestCase', '~> 0.1'
+    pod 'OCMock', '~> 2.2'
 end

@@ -2,16 +2,16 @@ honishi objective-c test template
 ==
 reference
 --
-* xctest-additions
-    * https://github.com/iheartradio/xctest-additions
+* xctest-additions (https://github.com/iheartradio/xctest-additions)
+* OCMock (http://ocmock.org)
 
 setup using cocoapods
 --
 ````
 vi podfile
 pod install
+open OCTestTemplate.xcworkspace
 ````
-then `open` the generated workspace.
 
 .gitignore
 --
@@ -21,4 +21,3 @@ then `open` the generated workspace.
 *.xcworkspace
 !default.xcworkspace
 ````
-

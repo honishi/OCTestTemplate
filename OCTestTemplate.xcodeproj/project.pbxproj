@@ -19,6 +19,9 @@
 		ED23413518C0264C00D8BFA0 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ED23411D18C0264B00D8BFA0 /* UIKit.framework */; };
 		ED23413D18C0264C00D8BFA0 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = ED23413B18C0264C00D8BFA0 /* InfoPlist.strings */; };
 		ED23413F18C0264C00D8BFA0 /* OCTestTemplateTests.m in Sources */ = {isa = PBXBuildFile; fileRef = ED23413E18C0264C00D8BFA0 /* OCTestTemplateTests.m */; };
+		ED23414A18C03CB800D8BFA0 /* NetworkAccessClass.m in Sources */ = {isa = PBXBuildFile; fileRef = ED23414918C03CB800D8BFA0 /* NetworkAccessClass.m */; };
+		ED23414B18C03CB800D8BFA0 /* NetworkAccessClass.m in Sources */ = {isa = PBXBuildFile; fileRef = ED23414918C03CB800D8BFA0 /* NetworkAccessClass.m */; };
+		ED23414D18C03ED100D8BFA0 /* NetworkAccessClassTests.m in Sources */ = {isa = PBXBuildFile; fileRef = ED23414C18C03ED100D8BFA0 /* NetworkAccessClassTests.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +51,9 @@
 		ED23413A18C0264C00D8BFA0 /* OCTestTemplateTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "OCTestTemplateTests-Info.plist"; sourceTree = "<group>"; };
 		ED23413C18C0264C00D8BFA0 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		ED23413E18C0264C00D8BFA0 /* OCTestTemplateTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OCTestTemplateTests.m; sourceTree = "<group>"; };
+		ED23414818C03CB800D8BFA0 /* NetworkAccessClass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NetworkAccessClass.h; sourceTree = "<group>"; };
+		ED23414918C03CB800D8BFA0 /* NetworkAccessClass.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NetworkAccessClass.m; sourceTree = "<group>"; };
+		ED23414C18C03ED100D8BFA0 /* NetworkAccessClassTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NetworkAccessClassTests.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -109,6 +115,8 @@
 			children = (
 				ED23412818C0264C00D8BFA0 /* AppDelegate.h */,
 				ED23412918C0264C00D8BFA0 /* AppDelegate.m */,
+				ED23414818C03CB800D8BFA0 /* NetworkAccessClass.h */,
+				ED23414918C03CB800D8BFA0 /* NetworkAccessClass.m */,
 				ED23412B18C0264C00D8BFA0 /* Images.xcassets */,
 				ED23412018C0264B00D8BFA0 /* Supporting Files */,
 			);
@@ -130,6 +138,7 @@
 			isa = PBXGroup;
 			children = (
 				ED23413E18C0264C00D8BFA0 /* OCTestTemplateTests.m */,
+				ED23414C18C03ED100D8BFA0 /* NetworkAccessClassTests.m */,
 				ED23413918C0264C00D8BFA0 /* Supporting Files */,
 			);
 			path = OCTestTemplateTests;
@@ -241,6 +250,7 @@
 			files = (
 				ED23412A18C0264C00D8BFA0 /* AppDelegate.m in Sources */,
 				ED23412618C0264B00D8BFA0 /* main.m in Sources */,
+				ED23414A18C03CB800D8BFA0 /* NetworkAccessClass.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -249,6 +259,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				ED23413F18C0264C00D8BFA0 /* OCTestTemplateTests.m in Sources */,
+				ED23414B18C03CB800D8BFA0 /* NetworkAccessClass.m in Sources */,
+				ED23414D18C03ED100D8BFA0 /* NetworkAccessClassTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

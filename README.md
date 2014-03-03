@@ -1,5 +1,6 @@
 honishi objective-c test template
 ==
+[![Build Status](https://travis-ci.org/honishi/OCTestTemplate.png?branch=master)](https://travis-ci.org/honishi/OCTestTemplate)
 
 library & service implemented in this project
 --

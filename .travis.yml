@@ -1,4 +1,5 @@
 language: objective-c
 before_install:
+  - gem install cocoapods
   - gem install xcpretty
 script: make test | xcpretty -c
